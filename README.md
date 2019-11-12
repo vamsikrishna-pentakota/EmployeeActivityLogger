@@ -1,6 +1,6 @@
 #                              Employee Activity Logger
 
-Our project The Employee Activity Logger is typically a Web Application that caters the much needed functionalities of the daily working employees under the Steel Plant hood. Not only simply catering the needs but we have taken all the efforts to enhance the efficiency of carrying out their tasks at a comparatively much swifter and flawless fashion.
+Our project The Employee Activity Logger is typically a Web Application that caters the much needed functionalities of the daily working employees under the Visakhapatnam Steel Plant hood. Not only simply catering the needs but we have taken all the efforts to enhance the efficiency of carrying out their tasks at a comparatively much swifter and flawless fashion.
 
 The actual ingredients of the Employee Activity Logger are as follows:
 
@@ -8,7 +8,11 @@ To start with, the **Database** used in this project was ORACLE 11g Express Edit
 
 The tables along with their constraints are illustrated though the following sequence of snippets.
 
-![alt text](http://url/to/img.png)
+![alt text](pictures/Picture1.png)
+
+![alt text](pictures/Picture2.png)
+
+![alt text](pictures/Picture3.png)
 
 All necessary Database design steps like Normalization, etc were taken in order to eliminate redundant data and erroneous data retrievals.
 
@@ -20,19 +24,27 @@ JQuery has been used in achieving the rich user interface which was a result of 
 
 Java Server Pages were used to execute the business logic for the entire application. Our project&#39;s architecture was created more robust so that it would be fit for exhibiting the most wanted feature of scalability.
 
+![alt text](pictures/Picture.png)
+
 The user initially views a HTML page and is requested to input his mode of Activity.
 
 Here every Employee is authenticated by Registering for the EAL in our ealregister.html page. The following code snippet shows the employee registration page where the employee just enters his/her employee id and the basic details are pre-fetched in order to provide authenticated registration. Then a password matching the required criteria is accepted and the registration would be completed:
+
+![alt text](pictures/Picture4.png)
 
  Here there will be no duplicate and proxy registrations whatsoever as we validate the employee id and match with the already present employee database at the RINL-VSP. Every employee is requested to choose a password during his/her registration.
 
 Later the employee Logs in for performing his activities. The following is the snippet showing the EAL&#39;s Log-In page :
 
+![alt text](pictures/Picture5.png)
+
 Here the user Logs In and enters his workspace to access all his/her activities.
 
 The first and the basic activity is the LOG BOOK ENTRY on a daily basis. The following snippets show the Log Book entry page in the employee workspace.
 
+![alt text](pictures/Picture6.png)
 
+![alt text](pictures/Picture7.png)
 
 The next major service being catered by the EAL as a web application is SEARCHING THE PAST ACTIVITIES based on two conditions :
 
@@ -40,10 +52,14 @@ The next major service being catered by the EAL as a web application is SEARCHIN
 
 The following screenshot clearly depicts the searching activity of the EAL by DATES basis.
 
+![alt text](pictures/Picture8.png)
 
+![alt text](pictures/Picture9.png)
 
 The following screenshot clearly depicts the searching activity of the EAL by ACTIVITY basis :
 
-
+![alt text](pictures/Picture10.png)
 
 Also facilities are provided for exporting the search results into PDF&#39;s and EXCEL sheets which look as follows.
+
+![alt text](pictures/Picture11.png)
