@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register EAL</title>
+<link href="ealstyles.css" rel="stylesheet" type="text/css" />
+<link rel="shortcut icon" href="images/personal19.png" type="png" />
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="foggy.js"></script>
+<link rel="stylesheet" href="jquery-ui/jquery-ui.css" />
+<link rel="stylesheet"
+	href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+<script src="jquery-ui/jquery-ui.js"></script>
+
+
+<script type="text/javascript">
+	function updateData() {
+		$.get("register.jsp", {
+			empid : $("#empid").val()
+		}, doUpdate);
+		
+		//$("#bar").progressbar({ value : false});
+		$('html').foggy();
+	}
+
+	var fulldata = new Array();
+
+	function doUpdate(response) {
+
+		var fulldatafromserver = response;
+		var fulldatafromservertrimmed = fulldatafromserver.trim();
+
+		if (fulldatafromservertrimmed != "") {
+			var fulldata = fulldatafromservertrimmed.split("***");
+			//alert(fulldata[0]);
+
+			if (response) {
+
+				$("#empname").val(fulldata[0]);
+				$("#empemail").val(fulldata[1]);
+				$("#empmobile").val(fulldata[2]);
+				$("#empdept").val(fulldata[3]);
+
+			}
+
+			$('html').foggy(false);
+			//$("#bar").progressbar({	value : true });
+		}
+
+		else {
+			$("#notnullmsg").show().effect("shake", "slow").delay(8000)
+					.fadeOut(1000);
+			$("#passwordinteract").hide();
+			$('html').foggy(false).delay(5000);
+			//alert("No database match");
+		}
+	}
+	$(document).ready(
+			function() {
+				$("#passwordinteract").hide();
+				$("#alertnotify").hide();
+				$("#alertnotify2").hide();
+				$("#alertnotify3").hide();
+				$("#notnullmsg").hide();
+				$("#alertnotify4").hide();
+
+				$("#button1").click(
+						function() {
+							if (($("#empid").val()) != "") {
+								$("#passwordinteract").fadeIn(2000).show();
+
+							} else {
+								$("#passwordinteract").hide();
+								$("#notnullmsg").show().effect("shake", "slow")
+										.delay(8000).fadeOut(1000);
+								//alert("This field cant be kept null");
+							}
+						});
+
+				$("#closebox").click(function() {
+					$("#passwordinteract").fadeOut(500).hide();
+				});
+			});
+
+	function trigger() {
+		var pattern = /^[a-zA-Z0-9_-]{5,15}$/;
+		if ($("#enterpass").val() == $("#reenterpass").val()) {
+
+			if (pattern.test($("#enterpass").val())) {
+				$.get("registerwithpass.jsp", {
+					empid : $("#empid").val(),
+					emppass : $("#enterpass").val()
+				}, regdNow);
+
+			} else {
+				$("#enterpass").val("");
+				$("#reenterpass").val("");
+				$("#alertnotify4").show().effect("shake", "slow").delay(8000)
+						.fadeOut(1000);
+				// alert("Doesnt match the password policy");
+
+			}
+		} else {
+			$("#alertnotify3").show().effect("shake", "slow").delay(10000)
+					.fadeOut(1000);
+			$("#enterpass").val("");
+			$("#reenterpass").val("");
+			//alert("Passwords dont match");
+		}
+	}
+
+	function regdNow(response) {
+		var respfromserver = response;
+		var respfromservertrimmed = respfromserver.trim();
+
+		if (respfromservertrimmed) {
+			if (respfromservertrimmed == "success") {
+				// alert("You Have Been Succesfully Registered");
+				$("#alertnotify").show().effect("shake", "slow").delay(10000)
+						.fadeOut(1000);
+				$("#empid").val("");
+				$("#empname").val("");
+				$("#empemail").val("");
+				$("#empmobile").val("");
+				$("#empdept").val("");
+				$("#enterpass").val("");
+				$("#reenterpass").val("");
+			} else{
+				$("#alertnotify2").show().effect("shake", "medium")
+						.delay(10000).fadeOut(1000);
+			}
+				$("#passwordinteract").delay(2000).fadeOut(2000);
+			//alert("Sorry - Your REGISTRATION FAILED");
+
+		} else {
+			alert("failed");
+			//$("#alertnotify2").show();
+		}
+	}
+</script>
+
+</head>
+<body>
+
+	<!------------------------------ This is for the entire Banner ------------------------------------------->
+	<div id="header1" class="headerreg">
+
+		<a href="ealhome.html" class="name">E-A-L</a> <span class="border1"><a
+			href="ealhome.html" class="link1"> Home</a></span> <span class="border2"><a
+			href="ealregister.html" class="link2reg"> Register</a></span> <span
+			class="border3"><a href="eallogin.html" class="link3">
+				Login</a></span> <span class="border4"><a href="ealhome.html"
+			class="link4"> Events</a></span>
+
+	</div>
+	<!----------------------------- This is for the entire Banner ------------------------------------------->
+
+
+	<div id="regdmodule" class="regdmodule">
+
+		<div id="headreg" class="headreg">
+
+			<p class="text1">
+				<img alt="NO Icon" src="images/info.png" class="infoicon"><br>
+				Please REGISTER HERE to become a part of the<br> Employee
+				Activity Logger
+			</p>
+		</div>
+
+		<div id="alertnotify4" class="alertnotify4">The Password must be
+			between 5-15 characters, and may contain numbers & lowercase,
+			uppercase characters</div>
+		<div id="notnullmsg" class="notnullmsg">Employee ID CAN'T be
+			LEFT EMPTY or We could'nt find an EMPLOYEE with this ID</div>
+		<div id="alertnotify3" class="alertnotify2">SORRY - Password
+			aren't matching -- Please ReType them</div>
+		<div id="alertnotify" class="alertnotify">
+			You have been SUCCESFULLY REGISTERED<br> <a href="eallogin.html"
+				class="reftext"> Please Login</a>
+		</div>
+		<div id="alertnotify2" class="alertnotify2">SORRY - Your
+			Registration was Unsuccessful</div>
+		<div id="passwordinteract" class="passwordinteract">
+			<div id="paswdboxhead" class="paswdboxhead">
+				<h4 class="paswdboxheadtxt">Choose A Password</h4>
+				<div id="headline" class="headline"></div>
+				<div class="closebox" id="closebox">
+					<img alt="NO Icon" src="images/closeicon.png">
+				</div>
+
+			</div>
+
+			<div>
+				<br>
+				<br>
+				<br> <br>
+				<form>
+					<input type="password" class="enterpass" id="enterpass"
+						placeholder="Enter A Password" /><br>
+					<br>
+					<br> <input type="password" class="reenterpass"
+						id="reenterpass" placeholder="Re-Enter Your Password " /><br>
+					<input type="button" class="pwdbtn" value="Submit"
+						onclick="trigger()" />
+				</form>
+			</div>
+
+
+		</div>
+
+
+		<div id="regdfields" class="regdfields">
+
+			<form>
+				<table class="regtable" align="center">
+
+					<tr>
+						<td class="labeltxt">Employee Id :</td>
+						<td><input type="text" name="empid" id="empid"
+							placeholder="      Employee Id" class="txtboxempid"
+							onblur="updateData()" /></td>
+
+					</tr>
+
+					<tr>
+						<td><br></td>
+					</tr>
+
+					<tr>
+						<td class="labeltxt">Employee Name :</td>
+						<td><input type="text" name="empname" id="empname"
+							placeholder="      Employee Name" class="txtboxempid" /></td>
+					</tr>
+
+					<tr>
+						<td><br></td>
+					</tr>
+
+
+					<tr>
+						<td class="labeltxt">Employee Email :</td>
+						<td><input type="text" name="empemail" id="empemail"
+							placeholder="      Email Address" class="txtboxempid" /></td>
+					</tr>
+
+					<tr>
+						<td><br></td>
+					</tr>
+
+					<tr>
+						<td class="labeltxt">Employee Mobile :</td>
+						<td><input type="text" name="empmobile" id="empmobile"
+							placeholder="      Mobile No" class="txtboxempid" /></td>
+					</tr>
+
+					<tr>
+						<td><br></td>
+					</tr>
+
+					<tr>
+						<td class="labeltxt">Employee Department :</td>
+						<td><input type="text" name="empdept" id="empdept"
+							placeholder="      Department" class="txtboxempid" /></td>
+					</tr>
+					<tr>
+						<td><br></td>
+					</tr>
+
+
+					<tr>
+
+
+
+						<td></td>
+						<td><input type="button" id="button1" class="registerbtn"
+							value="Register"></td>
+					</tr>
+					<tr>
+				</table>
+			</form>
+		</div>
+
+
+	</div>
+
+<div id="footer" class="footer">&#169; 2015 -- Vamsi Krishna.P &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                                                               &#x7c;&nbsp;&nbsp;&nbsp;&nbsp;
+                       <a href="ealhome.html" style="text-decoration: none;color: white;">Home</a>
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;&#x7c; 
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;
+                       <a href="ealregister.html" style="text-decoration: none;color: white;">Register</a>
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;&#x7c; 
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;
+                       <a href="eallogin.html" style="text-decoration: none;color: white;">Login</a>
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;&#x7c; 
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;
+                       <a href="ealaboutus.html" style="text-decoration: none;color: white;">About Us</a>
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;&#x7c;  
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;
+                        <img alt="No Icon" src="images/fbicon.png"> 
+                                                              &nbsp;&nbsp;&nbsp;&nbsp;
+                        <img alt="No Icon" src="images/giticon.png"> 
+                                                               &nbsp;&nbsp;&nbsp;&nbsp;
+                        <img alt="No Icon" src="images/tweeticon.png">                                     
+                                                                
+                                                                
+ </div>
+
+
+
+
+</body>
+</html>

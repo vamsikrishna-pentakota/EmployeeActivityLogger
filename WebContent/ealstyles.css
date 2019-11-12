@@ -1,0 +1,1680 @@
+@CHARSET "ISO-8859-1";
+
+.header {
+	background-color: #43525b;
+	height: 55px;
+	width: 1364px;
+	padding: 1px;
+	margin: -3px;
+	position: fixed;
+	top: 1px;
+	left: 3px;
+}
+.rinl .rinltext{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana,
+		"Lucida Grande", sans-serif;
+		font-size: 30px;
+}
+.logo{
+	
+	background-image: url(images/logo2.jpg);
+    background-repeat: no-repeat;
+    width: 240px;
+    height: 140px;
+  
+}
+.rinl{
+
+	height: 105px;
+	width: 900px;
+	position: fixed;
+	top: 58px;
+	left: 3px;
+	border-radius: 20px;
+	
+}
+.name {
+	color: #060606;
+	font-family: font-family : "Whitney SSm A", "Whitney SSm B", verdana,
+		"Lucida Grande", sans-serif;
+	font-size: 30px;
+	position: fixed;
+	top: 6px;
+	left: 43px;
+	text-decoration: none;
+}
+
+/* -------------------Styles for Navigation Menu [HOME]---------------------------------*/
+.border1 {
+	background-color: #f1f1f1;
+	height: 56px;
+	width: 2px;
+	right: 430px;
+	position: fixed;
+}
+
+.link1 {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 360px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+.link1:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 360px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+/* -------------------Styles for Navigation Menu [REGISTER]---------------------------------*/
+.border2 {
+	background-color: #f1f1f1;
+	height: 56px;
+	width: 2px;
+	right: 330px;
+	position: fixed;
+}
+
+.link2 {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 240px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+.link2:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 240px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+/* -------------------Styles for Navigation Menu [LOGIN]---------------------------------*/
+.border3 {
+	background-color: #f1f1f1;
+	height: 56px;
+	width: 2px;
+	right: 215px;
+	position: fixed;
+}
+
+.link3 {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 150px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+.link3:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 150px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+/* -------------------Styles for Navigation Menu [EVENTS]---------------------------------*/
+.border4 {
+	background-color: #f1f1f1;
+	height: 56px;
+	width: 2px;
+	right: 130px;
+	position: fixed;
+}
+
+.link4 {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 40px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #f1f1f1;
+	font-weight: bold;
+}
+
+.link4:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 40px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+/*------------------------Styles For the HOME-EAL Page -------------------------*/
+.link1home {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 360px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bold;
+}
+
+.link1home:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 360px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+/*------------------------Styles For the HOME-EAL Page -------------------------*/
+
+/*--------------------  Styles For the REGISTER-EAL Page ------------------------*/
+.headerreg {
+	background-color: #c5c5c5;
+	height: 55px;
+	width: 1364px;
+	padding: 1px;
+	margin: -3px;
+	position: fixed;
+	top: 1px;
+	left: 3px;
+}
+
+.link2reg {
+	font-family: "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 240px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bold;
+}
+
+.link2reg:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 240px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+.regdmodule {
+	height: 955px;
+	width: 1347px;
+	padding: 1px;
+	margin: -3px;
+	margin-left: -8px;
+	position: inherit;
+	top: 58px;
+	left: 8px;
+	background-image: url(images/whitey.png);
+	background-repeat: repeat;
+	position: inherit
+}
+
+.regdfields {
+	position: inherit;
+	margin-top: 45px;
+	margin-left: 140px;
+	height: 500px;
+	width: 500px;
+	background-color: #f1f1f1;
+	border-radius: 8px;
+}
+
+.headreg {
+	position: inherit;
+	margin-top: 100px;
+	margin-left: 140px;
+	height: 110px;
+	width: 500px;
+	color: #eee;
+	background-color: #35586C;
+	border-radius: 8px;
+}
+
+.text1 {
+	color: #fff;
+	font-family: font-family : "Whitney SSm A", "Whitney SSm B", verdana,
+		"Lucida Grande", sans-serif;
+	font-size: 20px;
+	font-weight: 700px;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.txtboxempid {
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	padding-left: 8px;
+	width: 200px;
+	height: 40px;
+	border: 2px solid #dadada;
+	color: #171717;
+	font-size: 14px;
+}
+
+.txtboxempid:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+
+.labeltxt {
+	text-align: left;
+	color: #171717;
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	font-size: 17px;
+	font-weight: 700px;
+}
+
+.regtable {
+	padding-top: 25px;
+}
+
+/*------------------------ Loader ------------------- */
+.registerbtn {
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 210px;
+	height: 45px;
+	padding: 10px 15px;
+	margin: 20px auto;
+	color: #FFFFFF;
+	background-color: #D14836;
+	border: 0 none;
+	font-size: 16px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	background-position: 245px 10px;
+	background-repeat: no-repeat;
+	-webkit-animation-name: moveright; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
+	outline:none;
+}
+
+.registerbtn:hover {
+	background-color: #4CC27B;
+    outline:none;
+}
+
+.passwordinteract{
+	position: fixed;
+	margin-top: 25px;
+	margin-left: 840px;
+	height: 300px;
+	width: 300px;
+	background-color: #f1f1f1;
+	/*border-radius: 8px; */
+	/*box-shadow: 10px 10px 5px #888888;*/
+	box-shadow:0px 0px 80px 0px #888888;
+   -webkit-box-shadow:0px 0px 80px 0x #888888;
+    -moz-box-shadow:0px 0px 80px 0px #888888;
+    
+}
+.passwordinteract .paswdboxhead{
+	position:inherit;
+	background-color: #35586C;
+	height: 45px;
+	width:300px;
+	color:white;
+	font-size: 15px;
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+    text-align: center;
+   
+    
+	
+}
+.passwordinteract .paswdboxhead .paswdboxheadtxt{
+	/*margin-left: 5px;*/
+	/*text-align: center;*/
+	position:fixed;
+	margin-top: 12px;
+	padding-left: 50px;
+}
+
+.passwordinteract .paswdboxhead .closeicon{
+	position:inherit;
+	padding-top: 12px;
+	padding-left: 115px;
+}
+
+.closebox{
+	position:fixed;
+	padding-top: 12px;
+	/*padding-left: 115px;*/
+	margin-left:256px;
+	height: 33px;
+	width:44px;;
+	position: inherit;
+	background-color: #35586C; 
+	border: 0 none;
+	outline:none;
+	cursor: pointer;
+	/*background-image: url(images/closeicon.png);
+	background-repeat: no-repeat;*/
+	
+}
+
+.headline{
+	position:fixed;
+	padding-top: 12px;
+	/*padding-left: 115px;*/
+	margin-left:252px;
+	height: 33px;
+	width:2px;;
+	position: inherit;
+	background-color: #f1f1f1; 
+	border: 0 none;
+	outline:none;
+}
+
+.enterpass{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	padding-left: 48px;
+	width: 220px;
+	height: 40px;
+	border: 2px solid #dadada;
+	color: #171717;
+	font-size: 14px;
+	margin-left: 15px;
+	background-image: url("images/closed.png");
+    background-position: 9px 9px;
+    background-repeat: no-repeat;
+}
+
+.enterpass:focus{
+	outline: none;
+	border-color: #46748e;
+	box-shadow: 0 0 10px #4e829f;
+}
+
+
+.reenterpass{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	padding-left: 48px;
+	width: 220px;
+	height: 40px;
+	border: 2px solid #dadada;
+	color: #171717;
+	font-size: 14px;
+	margin-left: 15px;
+	background-image: url("images/key152.png");
+    background-position: 9px 9px;
+    background-repeat: no-repeat;
+}
+
+.reenterpass:focus{
+	outline: none;
+	border-color: #46748e;
+	box-shadow: 0 0 10px #4e829f;
+}
+
+.pwdbtn{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 150px;
+	height: 45px;
+	padding: 10px 15px;
+	margin: 20px auto;
+	color: #FFFFFF;
+	background-color: #718A98;
+	border: 0 none;
+	font-size: 16px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	margin-left: 75px;
+    margin-top: 30px; 
+	outline:none;
+}
+
+.pwdbtn:hover {
+	background-color: #35586c;
+    outline:none;
+}
+
+.alertnotify{
+	position: fixed;
+	margin-top: -88px;
+	margin-left: 840px;
+	height: 75px;
+	width: 300px;
+	background-color: #4CC27B;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 900;
+	padding-left: 10px;
+	padding-top: 15px;
+	text-align: center;
+}
+.reftext{
+	color:#fff;
+	/*text-decoration: none;*/
+}
+.alertnotify2{
+	position: fixed;
+	margin-top: -43px;
+	margin-left: 840px;
+	height: 50px;
+	width: 290px;
+	background-color: #D14836;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 900;
+	padding-left: 10px;
+}
+
+.notnullmsg{
+	position: fixed;
+	margin-top: -25px;
+	margin-left: 640px;
+	height: 50px;
+	width: 390px;
+	background-color: #D14836;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 900;
+	padding-left: 3px;
+    text-align: center;	
+}
+
+.alertnotify4{
+	position: fixed;
+	margin-top: -118px;
+	margin-left: 840px;
+	height: 95px;
+	width: 300px;
+	background-color: #D14836;
+	color:#fff;
+	font-size: 18px;
+	font-weight: 900;
+	padding-left: 10px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.footer{
+	background-color: #0c0c0c;
+	height: 44px;
+	width: 1308px;
+	
+	/*margin: -3px;*/
+	padding-top: 3px;
+	margin-top:5px;
+	margin-left: -8px;
+	position: inherit;
+	color:#fff;
+	padding-left:40px;
+	padding-top: 24px;
+	font-size: 18px;
+	text-decoration: none;
+	cursor: pointer;
+	
+}
+
+
+/* ------------------- Styles for EAL LOGIN -------------------- */
+
+.loginmodule {
+	height: 955px;
+	width: 1347px;
+	padding: 1px;
+	margin: -3px;
+	margin-left: -8px;
+	position: inherit;
+	top: 58px;
+	left: 8px;
+	background-image: url(images/cloth.png);
+	background-repeat: repeat;
+	position: inherit
+}
+
+.link3reg {
+	font-family: "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 150px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bold;
+}
+
+.link3reg:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 150px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+.border1login {
+	background-color: #a8a8a8;
+	height: 56px;
+	width: 2px;
+	right: 430px;
+	position: fixed;
+}
+
+.link1login {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 360px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #a8a8a8;
+	font-weight: bold;
+}
+
+.link1login:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 360px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+/* -------------------Styles for Navigation Menu [REGISTER]---------------------------------*/
+.border2login {
+	background-color: #a8a8a8;
+	height: 56px;
+	width: 2px;
+	right: 330px;
+	position: fixed;
+}
+
+.link2login {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 240px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #a8a8a8;
+	font-weight: bold;
+}
+
+.link2login:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 240px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+/* -------------------Styles for Navigation Menu [LOGIN]---------------------------------*/
+.border3login {
+	background-color: #a8a8a8;
+	height: 56px;
+	width: 2px;
+	right: 215px;
+	position: fixed;
+}
+
+.link3login {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 150px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #a8a8a8;
+	font-weight: bold;
+}
+
+.link3login:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 150px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+}
+
+/* -------------------Styles for Navigation Menu [EVENTS]---------------------------------*/
+.border4login {
+	background-color: #a8a8a8;
+	height: 56px;
+	width: 2px;
+	right: 130px;
+	position: fixed;
+}
+
+.link4login {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 40px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #a8a8a8;
+	font-weight: bold;
+}
+
+.link4login:hover {
+	font-family: font-family : "Lucida Grande";
+	position: fixed;
+	top: 15px;
+	right: 40px;
+	font-size: 19px;
+	text-decoration: none;
+	color: #363636;
+	font-weight: bolder;
+} 
+
+
+
+
+.headlogin{
+	position: inherit;
+	margin-top: 140px;
+	margin-left: 500px;
+	height: 410px;
+	width: 350px;
+	color: #348a3a;
+	background-color: #ffffff;
+	/*border-radius: 8px;*/
+	box-shadow:0px 0px 80px 0px #888888;
+   -webkit-box-shadow:0px 0px 80px 0x #888888;
+    -moz-box-shadow:0px 0px 80px 0px #888888;
+	
+} 
+
+.headerlogin{   
+    background-color: #ffffff;
+	height: 55px;
+	width: 1364px;
+	padding: 1px;
+	margin: -3px;
+	position: fixed;
+	top: 1px;
+	left: 3px;
+
+}
+.text1login{
+	font-family: font-family : "Whitney SSm A", "Whitney SSm B", verdana,
+		"Lucida Grande", sans-serif;
+	color: #ffffff;
+	font-size: 29px;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 5px;
+	
+}
+.banlogin{
+	 background-color: #555d7c;
+	 width:350px;
+	 height:50px;
+	 padding-top: 1px;
+	
+	
+}
+.headlogin{
+	font-family: font-family : "Whitney SSm A", "Whitney SSm B", verdana,
+		"Lucida Grande", sans-serif;
+	color:#363636;
+	position: fixed;
+	
+}
+.txtboxempidlogin {
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	padding-left: 40px;
+	width: 270px;
+	height: 40px;
+	border: 2px solid #dadada;
+	color: #171717;
+	font-size: 18px;
+	margin-left: 15px;
+}
+.txtboxempidlogin:focus {
+	outline: none;
+	border-color: #9ecaed;
+	box-shadow: 0 0 10px #9ecaed;
+}
+.loginbtn {
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 312px;
+	height: 45px;
+	padding: 10px 15px;
+	margin: 20px auto;
+	color: #FFFFFF;
+	background-color: #D14836;
+	border: 0 none;
+	font-size: 17px;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
+	background-position: 245px 10px;
+	background-repeat: no-repeat;
+	-webkit-animation-name: moveright; /* Chrome, Safari, Opera */
+	-webkit-animation-duration: 0s; /* Chrome, Safari, Opera */
+	outline:none;
+	margin-left: 15px;
+}
+
+.loginbtn:hover {
+	background-color: #4CC27B;
+	font-weight:800;
+    outline:none;
+}
+
+.afterloginheader{
+   
+    background-color: #4e829f;
+	height: 55px;
+	width: 1364px;
+	padding: 1px;
+	margin: -3px;
+	position: fixed;
+	top: 1px;
+	left: 3px;
+	color:#FFFFFF;
+}
+
+.empname{
+	font-size: 18px;
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	font-weight: 900;	
+}
+.txthead{
+	 font-size: 15px;
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+		font-weight:bold;
+	position: fixed;
+	top: 13px;
+	left: 43px;
+}
+.searchicon{
+	position:fixed;
+	padding-top: 20px;
+	padding-left: 1060px;
+}
+.historytxt{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	position:fixed;
+	padding-top: 19px;
+	padding-left: 1090px;
+	font-size: 15px;
+	font-weight: 800;
+}
+.spantxt{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.downicon{
+	padding-top: 23px;
+	padding-left: 1260px;
+}
+
+.profiletxt{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	position:fixed;
+	padding-top: 19px;
+	padding-left: 1200px;
+	font-size: 15px;
+	font-weight: 800;
+}
+.upicon{
+	 margin-left:1220px;
+	 position: fixed;
+	 background-color: #4e829f;
+	 margin-top: 44px;
+	 
+}
+.profdropdown{
+	 margin-left:1130px;
+	 position: fixed;
+	 background-color: #4e829f;
+	 margin-top: 46px;
+	 width:186px;
+	 height:217px;
+	/* box-shadow:0px 6px 6px 6px #b8cdd8;
+    -webkit-box-shadow:0px 0px 80px 0x #888888;
+    -moz-box-shadow:0px 0px 80px 0px #888888; */
+}
+.forhov1{
+	position:fixed;
+	height: 50px;
+	width: 180px;
+	background-color: #ffffff;
+	margin-top: 4px;
+	margin-left: 3px;
+	border: thick;
+	border-color: #4e829f;
+}
+.forhov1:hover{
+	background-color: #4e829f;
+	color: #ffffff;
+	cursor: pointer;
+}
+.line1p{
+	color:#4e829f;
+	font-size: 18px;
+	font-weight: bolder;
+	padding-left: 65px;
+	padding-top: 13px;
+}
+.line1p:hover{
+	color: #ffffff;
+	
+}
+.line2p{
+	color:#4e829f;
+	font-size: 18px;
+	font-weight: bolder;
+	padding-left: 35px;
+	margin-top: 5px;
+}
+.forhov2{
+	position:fixed;
+	height: 50px;
+	width: 180px;
+	background-color: #ffffff;
+	margin-top: 57px;
+	margin-left: 3px;
+	
+}
+.forhov2:hover{
+	background-color: #4e829f;
+	color: #ffffff;
+	
+}
+.forhov3{
+	position:fixed;
+	height: 50px;
+	width: 180px;
+	background-color: #ffffff;
+	margin-top: 110px;
+	margin-left: 3px;
+}
+.forhov3:hover{
+	background-color: #4e829f;
+	color: #ffffff;
+}
+.forhov4{
+	position:fixed;
+	height: 50px;
+	width: 180px;
+	background-color: #ffffff;
+	margin-top: 163px;
+	margin-left: 3px;
+}
+
+
+.line1{
+	position:fixed;
+	margin-top: 40px;
+	height:3px;
+	width: 180px;
+	background-color: #4e829f;
+}
+
+.line2{
+	position:fixed;
+	margin-top: 80px;
+	height:3px;
+	width: 180px;
+	background-color: #4e829f;
+}
+.line3{
+	position:fixed;
+	margin-top: 120px;
+	height:3px;
+	width: 180px;
+	background-color: #4e829f;
+}
+.line4{
+	position:fixed;
+	margin-top: 160px;
+	height:3px;
+	width: 180px;
+	background-color: #4e829f;
+}
+.tablestyle{
+	 border: thick;
+     border-color: #4e829f;
+     background-color: #ffffff;
+     margin-left:1130px;
+	 position: fixed;
+	 margin-top: 55px;
+}
+.row1{
+	border: thick;
+	border-color: #ffffff;
+}
+.logoutconf{
+	position: inherit;
+	margin-left:360px;
+	height: 200px;
+	width: 550px;
+	color: #ffffff;
+	background-color: #555d7c;
+	box-shadow:0px 0px 80px 0px #888888;
+   -webkit-box-shadow:0px 0px 80px 0x #888888;
+    -moz-box-shadow:0px 0px 80px 0px #888888;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.logoutconfspace{
+	position: inherit;
+	padding-top: 25px;
+}
+.logoutbtn{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 130px;
+	height: 45px;
+	margin-right: 1px;
+	color: #FFFFFF;
+	background-color: #222531;
+	border-style:solid;
+	border-color: #FFFFFF;
+	border-width:3px;
+	font-size: 14px;
+	font-weight:800;
+	cursor: pointer;
+	outline: none;
+}
+.logoutbtn:hover{
+	border-style:solid;
+	border-width:3px;
+	border-color: #222531;
+	background-color: #FFFFFF;
+	color: #222531;
+	outline: none;
+}
+.sectionchooser{
+	position:inherit;
+	margin-top: -22px;
+	margin-left: 330px;
+	height: 1040px;
+	width: 700px;
+	background-color: #555d7c;
+	color:#ffffff;
+}
+.sectionchooser{
+	position:inherit;
+	padding-top: 30px;
+	padding-left: 50px;
+}
+.sectionchoosercontentheader{
+	font-size: 18px;
+	font-weight: bolder;
+	text-align: center;
+	
+}
+.tname{
+	font-size: 18px;
+	color:#ffffff;
+	font-weight: 900;
+	margin-left: 1070px;
+	margin-top: -100px;
+	position: relative;
+	width: 200px;
+}
+.propic{
+	
+	border-radius:50% 50% 50% 50%;  
+    width:60px;
+    height:60px;
+    border-color:#ffffff;
+    border-style: solid; 
+}
+.picadjust{
+	padding-top: -10px;
+	padding-left: 1100px;
+}
+.incwidth{
+	width:500px;
+}
+.fillarea{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	margin-top : 50px;
+	margin-left: 150px;
+	font-weight: 900;
+	font-size: 18px;
+	position: static;
+}
+.drop{
+	height: 45px;
+	width: 250px;
+	font-size: 16px;
+	color:#555d7c;
+	font-weight: 600;
+    padding-left: 5px;
+    padding-right: 25px;
+   
+
+}
+
+.drop:FOCUS{
+	
+	border-color: #555d7c;
+	border-style: solid;
+	border-width: 3px;
+	outline: none;
+	width: 320px;
+}
+.drop1{
+	height: 45px;
+	width: 250px;
+	font-size: 16px;
+	color:#555d7c;
+	font-weight: 600;
+    padding-left: 5px;
+    padding-right: 25px;
+   
+
+}
+
+.drop1:FOCUS{
+	
+	border-color: #555d7c;
+	border-style: solid;
+	border-width: 3px;
+	outline: none;
+}
+
+.drop3{
+	height: 45px;
+	width: 400px;
+	font-size: 16px;
+	color:#555d7c;
+	font-weight: 600;
+    padding-left: 5px;
+    padding-right: 25px;
+   
+
+}
+
+.drop3:FOCUS{
+	
+	border-color: #555d7c;
+	border-style: solid;
+	border-width: 3px;
+	outline: none;
+	width: 450px;
+}
+
+.scrolllist{
+	 overflow-y:scroll;
+	 overflow-x:hidden;
+     height: 80px;
+     width: 250px;  
+}
+
+.obs{
+	height: 145px;
+	width:550px;
+	font-size: 17px;
+	font-weight: 600;
+	border-color: #555d7c;
+	border-style: solid;
+	border-width: 1px;
+	color: #555d7c;
+	spellcheck:false;
+	
+}
+	
+.obs:FOCUS{
+ /*box-shadow:0px 0px 80px 0px #555d7c;*/
+ 	border-color: #555d7c;
+	border-style: solid;
+	border-width: 3px;
+	outline: none;
+	
+}
+.obs2{
+	height: 110px;
+	width:550px;
+	font-size: 17px;
+	font-weight: 600;
+	border-color: #555d7c;
+	border-style: solid;
+	border-width: 1px;
+	color: #555d7c;
+	spellcheck:false;
+}
+	
+.obs2:FOCUS{
+ /*box-shadow:0px 0px 80px 0px #555d7c;*/
+ 	border-color: #555d7c;
+	border-style: solid;
+	border-width: 3px;
+	outline: none;
+	
+}
+.obs3{
+	height: 45px;
+	width:550px;
+	font-size: 19px;
+	font-weight: 600;
+	border-color: #555d7c;
+	border-style: solid;
+	border-width: 1px;
+	color: #555d7c;
+	padding-top: 7px;
+	spellcheck:false;
+}
+	
+.obs3:FOCUS{
+ /*box-shadow:0px 0px 80px 0px #555d7c;*/
+ 	border-color: #555d7c;
+	border-style: solid;
+	border-width: 3px;
+	outline: none;
+	
+}
+.obs4{
+	height: 45px;
+	width:250px;
+	font-size: 19px;
+	font-weight: 600;
+	border-color: #555d7c;
+	border-style: solid;
+	border-width: 1px;
+	color: #555d7c;
+	padding-top: 7px;
+	spellcheck:false;
+}
+	
+.obs4:FOCUS{
+ /*box-shadow:0px 0px 80px 0px #555d7c;*/
+ 	border-color: #555d7c;
+	border-style: solid;
+	border-width: 3px;
+	outline: none;
+	
+}
+.logbookbutton{
+font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 250px;
+	height: 45px;
+	padding-top: 3px;
+	margin: 20px auto;
+	color: #FFFFFF;
+	background-color: #43525b;
+	border: 0 none;
+	font-size: 18px;
+	font-weight:200;
+	cursor: pointer;
+	margin-left: 75px;
+    margin-top: 30px; 
+	outline:none;
+}
+.logbookbutton:HOVER {
+	border-style: solid;
+	border-width: 3px;
+	border-color: #43525b;
+	color: #43525b;
+	background-color: #ffffff;
+	padding-top: 3px;
+	font-weight:200;
+	
+}
+.searchbydate{
+	padding-top: 20px;
+	padding-left: 50px;
+}
+.tabspace{
+	position: fixed;
+	height: 80px;
+	width: 110%;
+	background-color: #ededed;
+	margin-top: -50px;
+	margin-left: -1em;
+	
+	
+}
+.logbooknew{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	font-size: 16px;
+	font-weight:200;
+	cursor: pointer;
+	/*margin: 20px auto;
+	margin-left: 800px;
+    margin-top: 30px;*/ 
+	outline:none;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #ffa500;
+	color: #ffa500;
+	background-color: #ffffff;
+	
+}
+.logbooknew:HOVER{
+	border: 0 none;
+	padding-top: 3px;
+	font-weight:200;
+	color: #FFFFFF;
+	background-color: #ffa500;
+	
+	
+}
+.searchnew{
+	
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	margin: 20px auto;
+	font-size: 16px;
+	font-weight:200;
+	cursor: pointer;
+	/*margin-left: 900px;
+    margin-top: -3px; */
+	outline:none;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #ffa500;
+	color: #ffa500;
+	background-color: #ffffff;
+	
+}
+.searchnew:HOVER{
+	border: 0 none;
+	padding-top: 3px;
+	font-weight:200;
+	color: #FFFFFF;
+	background-color: #ffa500;
+	
+	
+}
+.profilenew{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	margin: 20px auto;
+	font-size: 16px;
+	font-weight:200;
+	cursor: pointer;
+	/*margin-left: 875px;
+    margin-top: 30px;*/ 
+	outline:none;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #ffa500;
+	color: #ffa500;
+	background-color: #ffffff;
+	
+}
+.profilenew:HOVER{
+	border: 0 none;
+	padding-top: 3px;
+	font-weight:200;
+	color: #FFFFFF;
+	background-color: #ffa500;
+	
+	
+}
+
+.logoutnew{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	margin: 20px auto;
+	font-size: 16px;
+	font-weight:200;
+	cursor: pointer;
+	/*margin-left: 875px;
+    margin-top: 30px;*/ 
+	outline:none;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #ffa500;
+	color: #ffa500;
+	background-color: #ffffff;
+	text-decoration: none;
+
+	
+}
+.logoutnew:HOVER{
+	border: 0 none;
+	padding-top: 3px;
+	font-weight:200;
+	color: #FFFFFF;
+	background-color: #ffa500;
+		text-decoration: none;
+}
+
+
+.banner{
+	margin-left: 900px;
+	margin-top: -3px;
+	
+}
+.anchors{
+	text-decoration: none;
+	color: #ffa500;
+}
+.anchors:HOVER {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+.lgbk{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	margin-top : 50px;
+	margin-left: 150px;
+	font-weight: 900;
+	font-size: 18px;
+	position: inherit;
+	padding-top: 30px;
+}
+.tabspacesearch{
+	position: fixed;
+	height: 80px;
+	width: 110%;
+	background-color: #ededed;
+	margin-left: 900px;
+	margin-top: -3px;
+	
+}
+.searchtable{
+	margin-top: 90px;
+	position: static;
+}
+.banner2{
+	height: 80px;
+	width: 110%;
+	margin-top: -180px;
+	margin-left: -1em;
+	position: absolute;
+	background-color: #ededed;
+}
+.logbooknew1{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	font-size: 16px;
+	font-weight:200;
+	cursor: pointer;
+	margin-left: 943px;
+    margin-top: 15px; 
+	outline:none;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #ffa500;
+	color: #ffa500;
+	background-color: #ffffff;
+	
+}
+.logbooknew1:HOVER{
+	padding-top: 3px;
+	font-weight:200;
+	color: #FFFFFF;
+	background-color: #ffa500;
+}
+.searchnew1{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	font-size: 16px;
+	font-weight:200;
+	cursor: pointer;
+	margin-left: -296px;
+    margin-top: 15px; 
+	outline:none;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #ffa500;
+	color: #ffa500;
+	background-color: #ffffff;
+	
+}
+.searchnew1:HOVER{
+	padding-top: 3px;
+	font-weight:200;
+	color: #FFFFFF;
+	background-color: #ffa500;
+}
+.profilenew1{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	font-size: 16px;
+	font-weight:200;
+	cursor: pointer;
+	margin-left: -197.5px;
+    margin-top: 15px; 
+	outline:none;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #ffa500;
+	color: #ffa500;
+	background-color: #ffffff;
+	
+}
+.profilenew1:HOVER{
+	padding-top: 3px;
+	font-weight:200;
+	color: #FFFFFF;
+	background-color: #ffa500;
+}
+.logoutnew1{
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 100px;
+	height: 35px;
+	padding-top: 1px;
+	font-size: 16px;
+	font-weight:200;
+	cursor: pointer;
+	margin-left: -97.5px;
+    margin-top: 15px; 
+	outline:none;
+    border-style: solid;
+	border-width: 2px;
+	border-color: #ffa500;
+	color: #ffa500;
+	background-color: #ffffff;
+	
+}
+.logoutnew1:HOVER{
+	padding-top: 3px;
+	font-weight:200;
+	color: #FFFFFF;
+	background-color: #ffa500;
+}
+.banner3{
+	position: inherit;
+	height: 85px;
+	width: 105%;
+	background-color: #ededed;
+	margin-top: -12px;
+	margin-left: -58px;
+	
+}
+.fdate{
+	color: #00A85E;
+	font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		          sans-serif;
+		font-size: 22px;
+		 text-decoration: underline;
+}
+.datedetail{
+	height:69px;
+	width: 580px;
+	background-color: #f1f1f1;
+	margin-top: 30px;
+	margin-left: 300px;
+	padding-left: 90px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	border-radius: 25px;
+}
+.optionsbutton{
+font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 190px;
+	height: 45px;
+	margin: 20px auto;
+	font-size: 18px;
+	cursor: pointer;
+	margin-left: 475px;
+    margin-top: 30px; 
+    outline:none;
+	color: #FFFFFF;
+	background-color: #43525b;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #43525b;
+	padding-top: 3px;
+	font-weight:200;
+	
+}
+
+.optionsbutton2{
+font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 190px;
+	height: 45px;
+	padding-top: 3px;
+	margin: 20px auto;
+	color: #43525b;
+	background-color: #ffffff;
+	border: 0 none;
+	font-size: 18px;
+	font-weight:200;
+	cursor: pointer;
+	margin-left: 1px;
+    margin-top: 30px; 
+	outline:none;
+}
+.optionsbutton2:HOVER {
+	outline:none;
+	color: #FFFFFF;
+	background-color: #43525b;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #43525b;
+	padding-top: 3px;
+	font-weight:200;
+	
+}
+.optionsbuttonx{
+font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 190px;
+	height: 45px;
+	margin: 20px auto;
+	font-size: 18px;
+	cursor: pointer;
+    margin-left: 1px;
+    margin-top: 30px; 
+    outline:none;
+	color: #FFFFFF;
+	background-color: #43525b;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #43525b;
+	padding-top: 3px;
+	font-weight:200;
+	
+}
+
+.optionsbuttony{
+font-family: "Whitney SSm A", "Whitney SSm B", verdana, "Lucida Grande",
+		sans-serif;
+	width: 190px;
+	height: 45px;
+	padding-top: 3px;
+	margin: 20px auto;
+	color: #43525b;
+	background-color: #ffffff;
+	border: 0 none;
+	font-size: 18px;
+	font-weight:200;
+	cursor: pointer;
+	margin-left: 475px;
+    margin-top: 30px; 
+	outline:none;
+}
+.optionsbuttony:HOVER {
+	outline:none;
+	color: #FFFFFF;
+	background-color: #43525b;
+	border-style: solid;
+	border-width: 3px;
+	border-color: #43525b;
+	padding-top: 3px;
+	font-weight:200;
+}
+.dropx{
+	height: 45px;
+	width: 220px;
+	font-size: 16px;
+	color:#555d7c;
+	font-weight: 600;
+    padding-left: 5px;
+    padding-right: 25px;
+   
+
+}
